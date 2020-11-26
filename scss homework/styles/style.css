@@ -1,0 +1,147 @@
+.wrapper { 
+    display:flex;
+    justify-content:center
+}
+
+.header { }
+
+
+.header__logo { 
+    float:left;
+    margin-left:-210px;
+    margin-top:25px;
+}
+
+.header__menu {
+    margin-top:35px;
+    padding-right:25px;
+}
+
+.header__menu-list {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+ }
+
+.list__part-left { 
+    margin-right:50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.list__part-left a:hover {
+    color:#4F56F1
+}
+
+.list__part-right { 
+    margin-left:600px;
+    margin-right:-120px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.list__part-right a:hover {
+    color:#4F56F1
+}
+
+.list__link-left { 
+    text-decoration:none;
+    color: #1B0A42
+}
+
+.list__link-right { 
+    text-decoration:none;
+    color: #1B0A42   
+}
+
+.header__signup {
+    float:right;
+    margin-top:-20px;
+    margin-right:-200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.header__signup-link {
+    text-decoration:none;
+    background-color:#4F56F1;
+    color:white;
+    padding:10px;
+    border-radius:3px;
+}
+
+.header__signup-link:hover {
+    background-color:#0852b9;
+}
+
+.main__article-head { 
+    position:absolute;
+    margin-top:250px;
+    margin-left:-950px;
+    width:400px;
+    height:25px;
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size:45px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main__small-article {
+    margin-top:25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    color: #9A9A9A;
+}
+
+.main__picture {
+    position:absolute;
+    height:50vh;
+    margin-top:150px;
+    margin-left:-500px;
+}
+
+.main__button { 
+    text-decoration:none;
+    background-color:#4F56F1;
+    margin-top:50px;
+    color:white;
+    border-radius:4px;
+    padding:20px;
+    margin-top:-600px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.10em
+    
+}
+
+.main__button1 {
+    margin-top:30px;
+    margin-left:-2px
+}
+
+.main__button1 a:hover {
+    background-color: #0852b9
+}
